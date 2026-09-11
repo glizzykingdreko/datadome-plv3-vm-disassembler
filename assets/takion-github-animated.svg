@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Takion">
+<title>Takion</title>
+<style>
+.sweep{transform-box:fill-box;transform-origin:50% 50%;transform:translateX(-130%) skewX(-10deg);animation:sweep 7s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes sweep{0%{transform:translateX(-130%) skewX(-10deg)}18%{transform:translateX(360%) skewX(-10deg)}100%{transform:translateX(360%) skewX(-10deg)}}
+@media (prefers-reduced-motion:reduce){.sweep{animation:none;opacity:0}}
+</style>
+<defs>
+<pattern id="bayerWord" width="12" height="12" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="3" height="3" fill="#fff" fill-opacity="1"/><rect x="3" y="0" width="3" height="3" fill="#fff" fill-opacity="0.659"/><rect x="6" y="0" width="3" height="3" fill="#fff" fill-opacity="0.915"/><rect x="9" y="0" width="3" height="3" fill="#fff" fill-opacity="0.573"/><rect x="0" y="3" width="3" height="3" fill="#fff" fill-opacity="0.488"/><rect x="3" y="3" width="3" height="3" fill="#fff" fill-opacity="0.829"/><rect x="6" y="3" width="3" height="3" fill="#fff" fill-opacity="0.403"/><rect x="9" y="3" width="3" height="3" fill="#fff" fill-opacity="0.744"/><rect x="0" y="6" width="3" height="3" fill="#fff" fill-opacity="0.872"/><rect x="3" y="6" width="3" height="3" fill="#fff" fill-opacity="0.531"/><rect x="6" y="6" width="3" height="3" fill="#fff" fill-opacity="0.957"/><rect x="9" y="6" width="3" height="3" fill="#fff" fill-opacity="0.616"/><rect x="0" y="9" width="3" height="3" fill="#fff" fill-opacity="0.36"/><rect x="3" y="9" width="3" height="3" fill="#fff" fill-opacity="0.701"/><rect x="6" y="9" width="3" height="3" fill="#fff" fill-opacity="0.445"/><rect x="9" y="9" width="3" height="3" fill="#fff" fill-opacity="0.787"/></pattern>
+<pattern id="bayerSeam" width="12" height="12" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="3" height="3" fill="#fff" fill-opacity="1"/><rect x="3" y="0" width="3" height="3" fill="#fff" fill-opacity="0.499"/><rect x="6" y="0" width="3" height="3" fill="#fff" fill-opacity="0.875"/><rect x="9" y="0" width="3" height="3" fill="#fff" fill-opacity="0.373"/><rect x="0" y="3" width="3" height="3" fill="#fff" fill-opacity="0.248"/><rect x="3" y="3" width="3" height="3" fill="#fff" fill-opacity="0.749"/><rect x="6" y="3" width="3" height="3" fill="#fff" fill-opacity="0.123"/><rect x="9" y="3" width="3" height="3" fill="#fff" fill-opacity="0.624"/><rect x="0" y="6" width="3" height="3" fill="#fff" fill-opacity="0.812"/><rect x="3" y="6" width="3" height="3" fill="#fff" fill-opacity="0.311"/><rect x="6" y="6" width="3" height="3" fill="#fff" fill-opacity="0.937"/><rect x="9" y="6" width="3" height="3" fill="#fff" fill-opacity="0.436"/><rect x="0" y="9" width="3" height="3" fill="#fff" fill-opacity="0.06"/><rect x="3" y="9" width="3" height="3" fill="#fff" fill-opacity="0.561"/><rect x="6" y="9" width="3" height="3" fill="#fff" fill-opacity="0.185"/><rect x="9" y="9" width="3" height="3" fill="#fff" fill-opacity="0.687"/></pattern>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#F9F9FB" stroke-opacity=".05" stroke-width="1"/></pattern>
+
+<radialGradient id="pool" cx="0.88" cy="0.08" r="1.2">
+<stop offset="0" stop-color="#2f5aa6"/><stop offset=".15" stop-color="#17356f"/><stop offset=".34" stop-color="#0d1d48"/><stop offset=".62" stop-color="#0A081E"/>
+</radialGradient>
+<radialGradient id="coverage" cx="0.88" cy="0.08" r="1.1">
+<stop offset="0" stop-color="#fff"/><stop offset=".22" stop-color="#fff"/><stop offset=".68" stop-color="#fff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="gridReach" cx=".3" cy=".8" r="1.2">
+<stop offset="0" stop-color="#fff"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/>
+</radialGradient>
+
+<linearGradient id="deepen" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+<stop offset="0" stop-color="#0A081E" stop-opacity="0"/><stop offset="1" stop-color="#0A081E" stop-opacity=".9"/>
+</linearGradient>
+<linearGradient id="ramp" x1="0" y1="1" x2="0" y2="0">
+<stop offset="0" stop-color="#2E8FEF"/><stop offset=".16" stop-color="#2E8FEF"/><stop offset=".52" stop-color="#1F5DB0"/><stop offset=".80" stop-color="#19407e"/><stop offset="1" stop-color="#122a55"/>
+</linearGradient>
+<linearGradient id="bandFade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".18" stop-color="#fff"/><stop offset="1" stop-color="#fff"/>
+</linearGradient>
+<linearGradient id="light" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="rgb(150,200,255)" stop-opacity="0"/><stop offset=".5" stop-color="rgb(150,200,255)" stop-opacity=".42"/><stop offset="1" stop-color="rgb(150,200,255)" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="seamRamp" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff"/><stop offset=".14" stop-color="#fff" stop-opacity=".92"/><stop offset=".48" stop-color="#fff" stop-opacity=".5"/><stop offset=".92" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<mask id="mFieldDither" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="420"><rect width="1280" height="420" fill="url(#bayerSeam)"/></mask>
+<mask id="mFieldCover" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="420"><rect width="1280" height="420" fill="url(#coverage)"/></mask>
+<mask id="mGrid" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="420"><rect width="1280" height="420" fill="url(#gridReach)"/></mask>
+
+<clipPath id="cBand"><rect x="0" y="119.60" width="1280" height="134.40"/></clipPath>
+<mask id="mBandFade" maskUnits="userSpaceOnUse" x="0" y="119.60" width="1280" height="134.40"><rect x="0" y="119.60" width="1280" height="134.40" fill="url(#bandFade)"/></mask>
+<mask id="mWordDither" maskUnits="userSpaceOnUse" x="0" y="119.60" width="1280" height="134.40"><rect x="0" y="119.60" width="1280" height="134.40" fill="url(#bayerWord)"/></mask>
+<clipPath id="cLetters"><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m45.8 12.9v4.1h6v11.8h4.6v-11.8h5.8v-4.1h-16.4z"/><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m72.6 12.9h-3.6c-2.1 1.7-4.4 5.7-5.6 8.7-0.7 2.3-1.6 5.1-1.6 7.2h4.6c0.1-0.9 0.2-1.9 0.5-3h7.8c0.2 0.9 0.5 2 0.6 3h4.3c-0.2-5.6-3.6-13-7-15.9zm-4.6 9.1c0.4-1.6 1.7-3.5 2.7-5.1 1.1 1.2 2.4 3.5 2.8 5.1h-5.5z"/><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m94.1 12.9c-1.1 3.5-4.3 6.7-7 8.3v-8.3h-4.7v15.9h4.7v-2.8c1.3-0.6 2.4-1.4 3.8-2.2 1.5 1.1 3.2 3 3.9 5h4.8c-0.7-3-2.8-5.6-5.5-7.8 2.3-2 4-4.9 5.2-8.1h-5.2z"/><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m102.1 12.9h4.4v15.9h-4.3l-0.1-15.9z"/><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m118.8 12.5c-4.3 0-9 2.6-9 8.1 0 5.3 3.8 8.5 9 8.6 4.1 0 9.1-2.2 9.1-8.2 0-5.4-3.9-8.5-9.1-8.5zm0 12.6c-2.4 0-4.2-1.5-4.2-4.2 0-2.5 1.7-4.3 4.2-4.3 2.3 0 4.3 1.4 4.3 4 0.2 2.9-1.6 4.5-4.3 4.5z"/><path transform="translate(0 119.60) scale(12.42718) translate(-45 -12)" d="m142.9 12.9v8c-2-2.8-5.3-5.9-7.8-7.7l-0.3-0.3h-3.6v15.9h4.5v-9.9c2.7 2 5.9 6.1 7.3 9.9h4.2v-15.9h-4.3z"/></clipPath>
+
+<mask id="mSeamDither" maskUnits="userSpaceOnUse" x="0" y="254" width="1280" height="96"><rect x="0" y="254" width="1280" height="96" fill="url(#bayerSeam)"/></mask>
+<mask id="mSeamRamp" maskUnits="userSpaceOnUse" x="0" y="254" width="1280" height="96"><rect x="0" y="254" width="1280" height="96" fill="url(#seamRamp)"/></mask>
+</defs>
+
+<!-- Field: depth pool, dithered brand pool in the lit corner, a whisper of grid. -->
+<rect width="1280" height="420" fill="#0A081E"/>
+<rect width="1280" height="420" fill="url(#pool)"/>
+<g mask="url(#mFieldCover)"><rect width="1280" height="420" fill="#2E8FEF" opacity=".4" mask="url(#mFieldDither)"/></g>
+<rect width="1280" height="420" fill="url(#grid)" opacity=".5" mask="url(#mGrid)"/>
+
+<!-- Ground the wordmark on ink. The lit corner reaches most of the right half
+     on a 2:1 frame, and the letters are brand blue too, so without this the
+     I, O and N lose their tops into the glow. The footer draws them on flat
+     ink; this keeps that under the letters while the corner stays lit. -->
+<rect width="1280" height="254" fill="url(#deepen)"/>
+
+<!-- The footer's wordmark: brand ramp through the letters, Bayer-dithered,
+     (every mask on this group is bounded to the band, since the sweep makes
+     the image repaint during each pass and the letters live only in the band),
+     cut at the band edge, with the light bar sweeping through it. -->
+<g clip-path="url(#cBand)"><g mask="url(#mBandFade)"><g mask="url(#mWordDither)"><g clip-path="url(#cLetters)">
+<rect x="0" y="119.60" width="1280" height="211.26" fill="url(#ramp)"/>
+<rect class="sweep" x="0" y="66.78" width="435.20" height="316.89" fill="url(#light)"/>
+</g></g></g></g>
+
+<!-- Brand slab, joined by the dithered dark->blue seam. -->
+<rect x="0" y="254" width="1280" height="166" fill="#1F5DB0"/>
+<g mask="url(#mSeamDither)"><rect x="0" y="254" width="1280" height="96" fill="#0A081E" mask="url(#mSeamRamp)"/></g>
+</svg>

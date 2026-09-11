@@ -1,0 +1,43 @@
+{
+  "name": "datadome-plv3-vm-disassembler",
+  "version": "1.0.0",
+  "description": "Disassembler for DataDome's plv3 VM (interstitial and captcha). Recovers the opcode table, the primitive table, the value tags and the string table straight out of the bundle, then emits a full listing.",
+  "main": "src/index.js",
+  "bin": {
+    "ddvm": "bin/ddvm.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "disasm": "node bin/ddvm.js"
+  },
+  "keywords": [
+    "datadome",
+    "plv3",
+    "disassembler",
+    "reverse-engineering",
+    "virtual-machine",
+    "bytecode",
+    "antibot",
+    "deobfuscation",
+    "javascript-vm"
+  ],
+  "author": "glizzykingdreko <glizzykingdreko@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glizzykingdreko/datadome-plv3-vm-disassembler.git"
+  },
+  "homepage": "https://github.com/glizzykingdreko/datadome-plv3-vm-disassembler#readme",
+  "bugs": {
+    "url": "https://github.com/glizzykingdreko/datadome-plv3-vm-disassembler/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {}
+}
